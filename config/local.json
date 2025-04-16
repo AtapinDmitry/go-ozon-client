@@ -1,0 +1,24 @@
+{
+  "__comment1": "Env param could be 'local', 'dev' or 'prod'",
+  "env": "local",
+  "__comment2": "Following config section describes DB",
+  "ozon": {
+    "client_id": "349350",
+    "api_key": "31d133bc-fea4-430e-92fc-1fe77ed41fea",
+    "fbs_warehouse_id": "22917096131000"
+  },
+  "__comment3": "Following config section describes DB",
+  "db": {
+    "postgres_host": "localhost",
+    "postgres_port": "5432",
+    "postgres_user": "nazghoul",
+    "postgres_password": "12345678",
+    "db_name": "dd"
+  },
+  "__comment4": "Following config section describes HTTP-server",
+  "http_server": {
+    "address": "localhost:8083",
+    "timeout": "4s",
+    "idle_timeout": "60s"
+  }
+}
